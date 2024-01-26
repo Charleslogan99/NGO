@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader';
 import Home from './Pages/Home'
-
 export default function App() {
   const [loading, setLoading] = useState(true);
 
@@ -10,14 +9,12 @@ export default function App() {
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 3000);
-
+                         
     // Clean up the timeout to avoid memory leaks
     return () => clearTimeout(timeout);
   }, []);
   return (
-    // <div>
-    //   <Home />
-    // </div>
+
     <div>
       {loading ? (
         <Loader />
@@ -27,6 +24,7 @@ export default function App() {
           <h1>Your App Content</h1>
           <Home />
         </div>
+      
       )}
     </div>
   );

@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/Wallpaper.jpg'
 
 const navigation = [
-  { name: 'ABOUT', href: '#`' },
+  { name: 'ABOUT', href: '#' },
   { name: 'PROJECTS', href: '#' },
   { name: 'CONTACT', href: '#' },
   { name: 'FAQ', href: '#' },
@@ -15,19 +15,20 @@ export default function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <div>
-      <header className="p-2 inset-x-0 top-0 bg-neutral-900 fixed z-50">
+      <header className="p-1 inset-x-0 top-0 bg-neutral-900 fixed z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
+              {/* <span className="sr-only">Your Company</span> */}
+              {/* <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
-              />
+              /> */}
+              <h3 className='text-purple-700'>ENOURI-JEHOVAH-JIREH-FOUNDATION</h3>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -74,11 +75,7 @@ export default function Nav() {
             <div className="flex items-center justify-between">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <h3 className='text-purple-700'>ENOURI-JEHOVAH-JIREH-FOUNDATION</h3>
               </a>
               <button
                 type="button"
@@ -96,7 +93,7 @@ export default function Nav() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-purple-700 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>

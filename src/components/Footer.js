@@ -1,61 +1,71 @@
 import React from 'react';
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaLinkedinIn,
-} from 'react-icons/fa';
-import { IoMdMail } from 'react-icons/io';
+import { MdLocationOn, MdEmail, MdPhone } from 'react-icons/md';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'; // Adding icons for Facebook and Twitter
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-950 text-purple-700 sm:py-40">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
-        <div className="flex flex-col lg:flex-row items-center">
-          <div className="text-center lg:text-left mb-4 lg:mb-0">
-            <h2 className="text-2xl font-bold mb-2">Company Name</h2>
-            <p className="text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+    <footer className="bg-gray-900 shadow-lg py-8">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Column 1 */}
+          <div className="text-white">
+            <h4 className="text-lg font-semibold mb-4">ENOURI-JEHOVAH-JIREH-FOUNDATION</h4>
+            {/* <p className="text-blue-700 text-md">ADURI-EL-SHADDAI-FOUNDATION</p> */}
+                <p className='text-purple-700 text-xs'>lorem ipsum dolor machkatib djjsk yruxnn lorem ipsum dolor machkatib djjsk yruxnnlorem ipsum dolor machkatib djjsk yruxnnlorem ipsum dolor machkatib djjsk yruxnnlorem ipsum dolor machkatib djjsk yruxnn</p>
           </div>
-          <div className="flex items-center space-x-4 sm:ml-24 mt-4 lg:mt-0">
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-200 transition duration-200"
-            >
-              <FaFacebookF size={24} />
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-200 transition duration-200"
-            >
-              <FaInstagram size={24} />
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-200 transition duration-200"
-            >
-              <FaTwitter size={24} />
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-200 transition duration-200"
-            >
-              <FaLinkedinIn size={24} />
-            </a>
+
+          {/* Column 2 */}
+          <div className="text-white xl:ml-20">
+            <h4 className="text-lg font-semibold mb-4">Navigation</h4>
+            <ul>
+              <li className="text-purple-700">Home</li>
+              <li className="text-purple-700">About</li>
+              <li className="text-purple-700">Contact</li>
+              <li className="text-purple-700">Projects</li>
+              <li className="text-purple-700">Faq</li>
+              {/* Add more programs */}
+            </ul>
+          </div>
+
+          {/* Column 3 */}
+          <div className="">
+            <h4 className="text-lg font-semibold text-white mb-4">
+              Contact Us
+            </h4>
+            <p className="text-purple-700">
+              <MdLocationOn className="inline-block mr-2" /> Plot 10 Conquest Avenue, MaryLand
+            </p>
+            <p className="text-purple-700">
+              <MdEmail className="inline-block mr-2" /> example@example.com
+            </p>
+            <p className="text-purple-700">
+              <MdPhone className="inline-block mr-2" /> +1234567890
+            </p>
+            {/* Add more contact information */}
+          </div>
+
+          {/* Column 4 */}
+          <div className="text-white xl:ml-20">
+            <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+            <ul>
+              <li className="text-purple-700">
+                <FaFacebook className="inline-block mr-2" /> Facebook: @Test4041
+              </li>
+              <li className="text-purple-700">
+                <FaTwitter className="inline-block mr-2" /> Twitter: @Test4041
+              </li>
+              <li className="text-purple-700">
+                <FaInstagram className="inline-block mr-2" /> Instagram: @Test4041
+              </li>
+              {/* Add more social media links */}
+            </ul>
           </div>
         </div>
-        <div className="text-center">
-          <p className="text-gray-400">
-            © 2024 Company Name. All rights reserved.
+        <div className="text-center text-white mt-8">
+          <p>
+            &copy; {new Date().getFullYear()} ENOURI-JEHOVAH-JIREH-FOUNDATION. All
+            rights reserved.
           </p>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-gray-200 transition duration-200 flex items-center space-x-1 mt-4"
-          >
-            <IoMdMail size={20} />
-            <span>info@companyname.com</span>
-          </a>
         </div>
       </div>
     </footer>

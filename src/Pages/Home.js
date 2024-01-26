@@ -3,9 +3,9 @@ import Hero from '../components/Hero'
 import Blog from '../components/Blog'
 import Team from '../components/Team'
 import Features from '../components/Features'
-import TrustedCompany from '../components/TrustedCompany'
 import Footer from '../components/Footer'
 import Mission from '../components/Mission'
+import CountingNumbers from '../components/TrustedCompany'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Team />
       <Mission />
       <Features />
-      <TrustedCompany />
+      <CountingNumbers />
       <Footer />
     </div>
   );

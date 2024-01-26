@@ -23,9 +23,9 @@ const Loader = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-black">
-      <div className="animate-spin rounded-full border-t-4 border-purple-500 border-opacity-50 h-16 w-16">
+      <div className="animate-spin rounded-full border-t-4 border-purple-700 border-opacity-50 h-16 w-16">
       <div className="absolute inset-0 flex items-center justify-center text-white">
-          <span className="text-2xl font-bold">{percentage}%</span>
+          <span className="text-xl text-purple-700 font-bold">{percentage}%</span>
         </div>
       </div>
     </div>
