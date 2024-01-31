@@ -21,7 +21,6 @@ export default function App() {
       ) : (
         // Your main content goes here once loading is complete
         <div>
-          <h1>Your App Content</h1>
           <Home />
         </div>
       
