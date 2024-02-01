@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
+import logo from '../assets/Logo.jpg'
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,7 +9,12 @@ const Nav = () => {
   };
 
   return (
-    <nav className="p-1 inset-x-0 top-0 bg-neutral-50 shadow-xl fixed z-50">
+    <header className="p-1 inset-x-0 top-0 bg-white shadow-xl fixed z-50">
+      <div
+        id="google_translate_element"
+        className="fixed top-0 left-0 z-50 p-4"
+      ></div>
+
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -17,8 +22,9 @@ const Nav = () => {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              className="h-8 w-auto lg:h-12"
+              src={logo}
+              // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
               alt=""
             />
           </a>
@@ -42,26 +48,26 @@ const Nav = () => {
           {/* Navigation Links */}
           <div className="hidden md:flex">
             <a
-              href="/"
-              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-100"
+              href="/about"
+              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-500"
             >
               About
             </a>
             <a
               href="/"
-              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-100"
+              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-500"
             >
               Contact
             </a>
             <a
               href="/"
-              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-100"
+              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-500"
             >
               Projects
             </a>
             <a
               href="/"
-              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-100"
+              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-500"
             >
               FAQ
             </a>
@@ -72,7 +78,7 @@ const Nav = () => {
           {/* Donate Button */}
           <a
             href="/"
-            className="text-sm font-semibold leading-6 text-gray-900 hover:bg-slate-500 bg-purple-700 p-2 rounded-xl"
+            className="text-sm font-semibold leading-6 text-gray-50 hover:bg-slate-500 bg-purple-700 p-2 rounded-xl"
           >
             Donate now <span aria-hidden="true">&rarr;</span>
           </a>
@@ -81,7 +87,7 @@ const Nav = () => {
       </nav>
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {/* Mobile Navigation Links */}
             <a
@@ -127,7 +133,7 @@ const Nav = () => {
           </div>
         </div>
       )}
-    </nav>
+    </header>
   );
 };
 

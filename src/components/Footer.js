@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 shadow-lg py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Column 1 */}
           <div className="text-white">
             <h4 className="text-lg font-semibold mb-4">ENOURI-JEHOVAH-JIREH-FOUNDATION</h4>
