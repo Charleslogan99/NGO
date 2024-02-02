@@ -24,7 +24,6 @@ export default function App() {
       ) : (
         // Your main content goes here once loading is complete
         <RouterProvider router={router} />
-      
       )}
     </div>
   );
