@@ -5,7 +5,7 @@ import Features from '../components/Features'
 import Footer from '../components/Footer'
 import Mission from '../components/Mission'
 import MajorCauses from '../components/MajorCauses'
-import CountingNumbers from '../components/TrustedCompany'
+// import CountingNumbers from '../components/TrustedCompany'
 import GoogleTranslator from '../components/Translator'
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <Team />
       <Mission />
       <Features />
-      <CountingNumbers />
+      {/* <CountingNumbers /> */}
       <Footer />
     </div>
   );

@@ -65,7 +65,7 @@ const Features = () => {
   return (
     <div className="container mx-auto pb-16 px-4 py-8">
       <div className='p-8'>
-        <h1 className='font-semibold text-4xl text-purple-700 text-center'>Our Mission</h1>
+        <h1 className='font-semibold text-4xl text-purple-700 text-center'>Our Major Causes</h1>
         <p className='text-sm pt-4 text-black text-center'>Help people out of poverty, and make their lives better</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">

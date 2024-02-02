@@ -17,12 +17,12 @@ const Footer = () => {
           {/* Column 2 */}
           <div className="text-white xl:ml-20">
             <h4 className="text-lg font-semibold mb-4">Navigation</h4>
-            <ul>
-              <li className="text-purple-700">Home</li>
-              <li className="text-purple-700">About</li>
-              <li className="text-purple-700">Contact</li>
-              <li className="text-purple-700">Projects</li>
-              <li className="text-purple-700">Faq</li>
+            <ul className='flex flex-col'>
+              <a href='/' className="text-purple-700" >Home</a>
+              <a href='/about' className="text-purple-700">About</a>
+              <a href='/contact' className="text-purple-700">Contact</a>
+              <a href='/projects' className="text-purple-700">Projects</a>
+              <a href='/faq' className="text-purple-700">Faq</a>
               {/* Add more programs */}
             </ul>
           </div>
