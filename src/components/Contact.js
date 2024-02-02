@@ -1,13 +1,13 @@
 
-import { FaFacebook, FaTwitter, FaMapMarkerAlt, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaPhoneAlt, FaTwitter, FaMapMarkerAlt, FaEnvelope, FaPhone, FaInstagram, FaFacebook } from 'react-icons/fa';
 import Nav from './Header';
+import Footer from './Footer';
 
 const Contact = () => {
   return (
     <div>
-        <Nav />
-      {/* Hero Section with Gradient Background */}
-      <div className="relative bg-gradient-to-r from-blue-700 to-white h-96 md:h-screen">
+      <Nav />
+      <div className="relative mt-20  md:mt-2 lg:mt-20 bg-gradient-to-r from-purple-700 to-white h-96 md:h-screen">
         <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
@@ -18,38 +18,44 @@ const Contact = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-8">
-        <div className="max-w-3xl mx-auto">
-          {/* Social Media Section */}
-          <div className="flex items-center justify-center space-x-4 mb-8">
-            <a href="#" className="text-blue-500 hover:text-blue-700">
-              <FaFacebook className="text-4xl" />
-            </a>
-            <a href="#" className="text-blue-500 hover:text-blue-700">
-              <FaTwitter className="text-4xl" />
-            </a>
-            {/* Add more social media icons */}
+      <div className="container mx-auto py-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Contact Detail 1: Phone */}
+          <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
+            <FaPhoneAlt className="text-4xl text-purple-700 mb-4" />
+            <h3 className="text-lg font-semibold mb-2">Phone</h3>
+            <p className="text-gray-700">+123 456 7890</p>
           </div>
 
-          {/* Address Section */}
-          <div className="flex items-center mb-4">
-            <FaMapMarkerAlt className="text-gray-600 text-xl mr-2" />
-            <p>Plot 10 Conquest Avenue, MaryLand</p>
+          <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
+            <FaEnvelope className="text-4xl text-purple-700 mb-4" />
+            <h3 className="text-lg font-semibold mb-2">Email</h3>
+            <p className="text-gray-700">contact@ngo.org</p>
           </div>
 
-          {/* Email Section */}
-          <div className="flex items-center mb-4">
-            <FaEnvelope className="text-gray-600 text-xl mr-2" />
-            <p>example@example.com</p>
+          <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
+            <FaMapMarkerAlt className="text-4xl text-purple-700 mb-4" />
+            <h3 className="text-lg font-semibold mb-2">Address</h3>
+            <p className="text-gray-700">123 NGO Street, City, Country</p>
           </div>
-
-          {/* Phone Number Section */}
-          <div className="flex items-center">
-            <FaPhone className="text-gray-600 text-xl mr-2" />
-            <p>+1234567890</p>
+          <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
+            <FaInstagram className="text-4xl text-purple-700 mb-4" />
+            <h3 className="text-lg font-semibold mb-2">Address</h3>
+            <p className="text-gray-700">123 NGO Street, City, Country</p>
+          </div>
+          <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
+            <FaTwitter className="text-4xl text-purple-700 mb-4" />
+            <h3 className="text-lg font-semibold mb-2">Address</h3>
+            <p className="text-gray-700">123 NGO Street, City, Country</p>
+          </div>
+          <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
+            <FaFacebook className="text-4xl text-purple-700 mb-4" />
+            <h3 className="text-lg font-semibold mb-2">Address</h3>
+            <p className="text-gray-700">123 NGO Street, City, Country</p>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

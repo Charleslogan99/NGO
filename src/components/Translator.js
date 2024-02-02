@@ -1,20 +1,18 @@
-import React, { useEffect } from 'react';
+import Nav from "./Header";
 
-const GoogleTranslate = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
-  return (
-    <div id="google_translate_element" className="fixed top-0 left-0 z-50 p-4"></div>
-  );
+const GoogleTranslator = () => {
+    return (
+ 
+    <div className="bg-white fixed top-0 w-full z-50 shadow-md">
+    <div className="container mx-auto py-2 px-4">
+    <div
+        id="google_translate_element"
+        className=""
+      ></div>
+      <Nav />
+    </div>
+</div>
+      
+    );
 };
-
-export default GoogleTranslate;
+export default GoogleTranslator

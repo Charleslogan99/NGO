@@ -13,7 +13,7 @@ const links = [
   
   export default function About() {
     return (
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <div className="relative mt-20  md:mt-2 lg:mt-20 isolate h-full lg:h-screen overflow-hidden bg-gray-900 py-24 sm:py-32">
         <img
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
           alt=""
@@ -45,7 +45,7 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">ABOUT US</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
               fugiat veniam occaecat fugiat aliqua.

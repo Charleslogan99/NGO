@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { RouterProvider } from 'react-router-dom';
+
 import Loader from './components/Loader';
-import Home from './Pages/Home'
+import router from './route';
+
 export default function App() {
   const [loading, setLoading] = useState(true);
 
@@ -20,9 +23,7 @@ export default function App() {
         <Loader />
       ) : (
         // Your main content goes here once loading is complete
-        <div>
-          <Home />
-        </div>
+        <RouterProvider router={router} />
       
       )}
     </div>

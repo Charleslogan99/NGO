@@ -5,9 +5,9 @@ import Nav from "../components/Header";
 export default function ContactUs() {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
