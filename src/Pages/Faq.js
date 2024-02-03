@@ -22,9 +22,9 @@ const FAQPage = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 mb-20 mt-20 py-8">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-8">Questions & Answers</h2>
+          <h2 className="text-4xl font-semibold mb-8">Questions & Answers</h2>
           {/* Accordion Component */}
           <Accordion />
         </div>

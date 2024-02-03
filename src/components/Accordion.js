@@ -8,10 +8,63 @@ const Accordion = () => {
   };
 
   const questions = [
-    { question: 'What is Lorem Ipsum?', answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },
-    { question: 'Why do we use it?', answer: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
-    { question: 'Where does it come from?', answer: 'Contrary to popular belief, Lorem Ipsum is not simply random text.' },
-    // Add more questions as needed
+    {
+      question: "What support services do you provide for widows?",
+      answer:
+        "Our NGO provides a range of support services for widows, including financial assistance, vocational training, counseling, legal aid, and access to healthcare facilities.",
+    },
+
+    {
+      question: "How can widows access financial assistance through your NGO?",
+      answer:
+        "Widows can apply for financial assistance by filling out our application form available on our website or by visiting our office during working hours. Our team will review each application and provide assistance based on eligibility criteria.",
+    },
+    {
+      question: "Are there any educational programs available for widows?",
+      answer:
+        "Yes, we offer educational programs tailored to the needs of widows, including adult education classes, skill-building workshops, and scholarship opportunities for widows and their children.",
+    },
+    {
+      question: "Do you offer counseling or mental health support for widows?",
+      answer:
+        "Absolutely. We understand the emotional challenges widows may face, and our organization offers professional counseling services to provide emotional support and guidance during difficult times.",
+    },
+
+    {
+      question:
+        "Can widows receive legal assistance through your organization?",
+      answer:
+        "Yes, widows can seek legal assistance through our organization for matters such as inheritance rights, property disputes, and legal documentation. Our legal team is here to help navigate through legal processes.",
+    },
+    {
+      question:
+        "What resources are available for widows seeking employment or vocational training?",
+      answer:
+        "We provide various resources for widows interested in gaining employment or vocational training, including job placement services, vocational skills training programs, and entrepreneurship development initiatives.",
+    },
+    {
+      question: "How do I apply for housing assistance as a widow?",
+      answer:
+        "Widows in need of housing assistance can submit an application through our housing program. Our team will assess each application based on specific criteria and provide support accordingly.",
+    },
+    {
+      question:
+        "Are there support groups or community events for widows to connect with others?",
+      answer:
+        "es, we organize support groups, community gatherings, and empowerment events where widows can connect with others, share experiences, and receive encouragement and support from their peers.",
+    },
+    {
+      question:
+        "What steps do I need to take to become a beneficiary of your NGO's programs?",
+      answer:
+        "To become a beneficiary, widows can reach out to our organization through our contact channels, attend informational sessions, or visit our office to learn about available programs and eligibility criteria.",
+    },
+    {
+      question:
+        "How can I volunteer or contribute to support widows through your organization?",
+      answer:
+        "We welcome volunteers and contributions from individuals who want to support widows in our community. You can explore volunteer opportunities on our website or contact us directly to learn about ways to contribute.",
+    },
   ];
 
   return (
@@ -27,7 +80,7 @@ const Accordion = () => {
             </svg>
           </div>
           {activeIndex === index && (
-            <p className="text-gray-600 mt-2">{item.answer}</p>
+            <p className="text-gray-900 mt-2">{item.answer}</p>
           )}
         </div>
       ))}
