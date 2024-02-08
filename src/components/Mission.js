@@ -1,7 +1,9 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-import logo from '../assets/Image2.jpg'
+import React from 'react';
+import { FaHandshake, FaBalanceScale, FaHandsHelping } from 'react-icons/fa';
 
-export default function Mission() {
+import logo from '../assets/Image2.jpg';
+
+export default function Section() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -39,20 +41,11 @@ export default function Mission() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              {/* <p className="text-base font-semibold leading-7 text-indigo-600">
-                Our Vision
-             </p> */}
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-purple-700 sm:text-4xl">
-                Our Vision
+                Our Mission
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                We are nonprofit team and work worldwide Their multiply doesn't
-                behold shall appear living heaven second roo lights. Itself hath
-                thing for won't herb forth gathered good bear fowl kind give fly
-                form winged for reason Land their given the seasons herb lights
-                fowl beast whales it after multiply fifth under to it waters
-                waters created heaven very fill agenc to. Dry creepeth subdue
-                them kind night behold rule stars him grass waters our without
+                We are a nonprofit organization dedicated to improving the lives of widows in Nigeria. Our mission is to provide comprehensive support and resources to empower widows, ensuring they have the opportunity to thrive and reach their full potential.
               </p>
             </div>
           </div>
@@ -60,7 +53,6 @@ export default function Mission() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            // src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
             src={logo}
             alt=""
           />
@@ -69,87 +61,48 @@ export default function Mission() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                We are nonprofit team and work worldwide Their multiply doesn't
-                behold shall appear living heaven second roo lights. Itself hath
-                thing for won't herb forth gathered good bear fowl kind give fly
-                form winged for reason Land their given the seasons herb lights
-                fowl beast whales it after multiply fifth under to it waters
-                waters created heaven very fill agenc to. Dry creepeth subdue
-                them kind night behold rule stars him grass waters our without
+                Our organization is committed to the following principles and objectives:
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul  className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                  <FaHandshake
+                    className="mt-1 h-7 w-7 flex-none text-purple-700"
                     aria-hidden="true"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Our Vision.
+                      Empowering Widows:
                     </strong>{" "}
-                    We are nonprofit team and work worldwide Their multiply
-                    doesn't behold shall appear living heaven second roo lights.
-                    Itself hath thing for won't herb forth gathered good bear
-                    fowl kind give fly form winged for reason Land their given
-                    the seasons herb lights fowl beast whales it after multiply
-                    fifth under to it waters waters created heaven very fill
-                    agenc to. Dry creepeth subdue them kind night behold rule
-                    stars him grass waters our without
+                    We strive to empower widows by providing them & their children with access to education, healthcare, and essential resources that promote their well-being and independence.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                  <FaBalanceScale
+                    className="mt-1 h-7 w-7 flex-none text-purple-700"
                     aria-hidden="true"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Our Vision.
+                      Advocating for Rights and Equality:
                     </strong>{" "}
-                    We are nonprofit team and work worldwide Their multiply
-                    doesn't behold shall appear living heaven second roo lights.
-                    Itself hath thing for won't herb forth gathered good bear
-                    fowl kind give fly form winged for reason Land their given
-                    the seasons herb lights fowl beast whales it after multiply
-                    fifth under to it waters waters created heaven very fill
-                    agenc to. Dry creepeth subdue them kind night behold rule
-                    stars him grass waters our without
+                    We advocate for the rights and equality of widows, working to eliminate discrimination, violence, and injustice that hinder their progress and development.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                  <FaHandsHelping
+                    className="mt-1 h-7 w-7 flex-none text-purple-700"
                     aria-hidden="true"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Database backups.
+                      Providing Support and Assistance:
                     </strong>{" "}
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    We provide support and assistance to widows facing adversity, including survivors of violence, refugees, and those living in poverty or conflict-affected areas.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                We are nonprofit team and work worldwide Their multiply doesn't
-                behold shall appear living heaven second roo lights. Itself hath
-                thing for won't herb forth gathered good bear fowl kind give fly
-                form winged for reason Land their given the seasons herb lights
-                fowl beast whales it after multiply fifth under to it waters
-                waters created heaven very fill agenc to. Dry creepeth subdue
-                them kind night behold rule stars him grass waters our without
-              </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-               Our Vision
-              </h2>
-              <p className="mt-6">
-                We are nonprofit team and work worldwide Their multiply doesn't
-                behold shall appear living heaven second roo lights. Itself hath
-                thing for won't herb forth gathered good bear fowl kind give fly
-                form winged for reason Land their given the seasons herb lights
-                fowl beast whales it after multiply fifth under to it waters
-                waters created heaven very fill agenc to. Dry creepeth subdue
-                them kind night behold rule stars him grass waters our without
+                Our organization is dedicated to creating a world where widows are valued, respected, and empowered to lead fulfilling lives. Through our programs, partnerships, and advocacy efforts, we strive to make a positive and lasting impact on the lives of widows everywhere.
               </p>
             </div>
           </div>

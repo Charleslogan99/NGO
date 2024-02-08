@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from '../assets/Logo.jpg'
+import Payment from "./Payment";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -33,9 +34,9 @@ const Nav = () => {
           >
             <span className="sr-only">Toggle Menu</span>
             {isOpen ? (
-              <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              <XMarkIcon className="h-6 w-6 text-purple-700" aria-hidden="true" />
             ) : (
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+              <Bars3Icon className="h-6 w-6 text-purple-700" aria-hidden="true" />
             )}
           </button>
         </div>
@@ -44,7 +45,7 @@ const Nav = () => {
           <div className="hidden md:flex">
             <a
               href="/about"
-              className="text-purple-700 px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-500"
+              className="text-purple-700  px-3 py-2 rounded-md text-lg font-satoshi hover:text-gray-500"
             >
               About
             </a>
@@ -69,12 +70,12 @@ const Nav = () => {
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
+          {/* <a
             href="/"
             className="text-sm font-semibold leading-6 text-gray-50 hover:bg-slate-500 bg-purple-700 p-2 rounded-xl"
           >
             Donate now <span aria-hidden="true">&rarr;</span>
-          </a>
+          </a> */}<Payment />
         </div>
       </nav>
       {isOpen && (
@@ -106,9 +107,9 @@ const Nav = () => {
             </a>
           </div>
           <div className="px-2 pt-2 pb-3 sm:px-3">
-            <button className="bg-purple-700 text-purple-50 font-satoshi text-lg hover:bg-slate-50 w-full py-2 rounded-md">
+            {/* <button className="bg-purple-700 text-purple-50 font-satoshi text-lg hover:bg-slate-50 w-full py-2 rounded-md">
               Donate Now
-            </button>
+            </button> */}<Payment />
           </div>
           <div className="flex justify-center">
             <button

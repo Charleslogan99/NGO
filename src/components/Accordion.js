@@ -70,7 +70,7 @@ const Accordion = () => {
   return (
     <div>
       {questions.map((item, index) => (
-        <div key={index} className="border-b border-gray-200 py-4">
+        <div key={index} className="border-b border-gray-200 py-8">
           <div className="flex justify-between items-center">
             <h3 className="text-lg text-purple-700 font-semibold cursor-pointer" onClick={() => handleToggle(index)}>
               {item.question}
@@ -80,7 +80,7 @@ const Accordion = () => {
             </svg>
           </div>
           {activeIndex === index && (
-            <p className="text-gray-900 mt-2">{item.answer}</p>
+            <p className="text-gray-900 mt-8">{item.answer}</p>
           )}
         </div>
       ))}

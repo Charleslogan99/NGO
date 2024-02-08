@@ -1,4 +1,5 @@
 import Features from "./Features";
+import { useSpring, animated } from 'react-spring';
 
 const links = [
     { name: 'About Us', href: '' },
@@ -14,14 +15,30 @@ const links = [
   // ]
   
   export default function About() {
+    const animationProps = useSpring({
+      from: { opacity: 0, transform: 'translateY(-50px)' },
+      to: { opacity: 1, transform: 'translateY(0px)' },
+      config: { duration: 1000 },
+    });
     return (
       <>
         <div className="relative mt-20  md:mt-2 lg:mt-20 isolate h-full lg:h-screen overflow-hidden bg-gray-900 py-24 sm:py-32">
-          <img
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-            alt=""
-            className="absolute inset-0 -z-10   h-full w-full object-cover object-right md:object-center"
-          />
+          <svg
+            className="absolute inset-0 -z-10 opacity-60 h-full w-full object-cover object-right md:object-center"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+          >
+            <rect width="100" height="100" fill="url(#gradient)" />
+            <defs>
+              <linearGradient id="gradient" gradientTransform="rotate(90)">
+                <stop offset="0%" stopColor="#6B46C1" /> {/* Purple-700 */}
+                <stop offset="100%" stopColor="#718096" /> {/* Gray or White */}
+              </linearGradient>
+            </defs>
+          </svg>
+
           <div
             className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
             aria-hidden="true"
@@ -46,39 +63,32 @@ const links = [
               }}
             />
           </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                ABOUT US
-              </h2>
-              
-            </div>
-            <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-              <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-                {links.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className="pointer-events-none text-purple-700"
-                  >
-                    {link.name} <span aria-hidden="true">&rarr;</span>
-                  </a>
-                ))}
+          <animated.div
+            // className="absolute inset-0 flex flex-col justify-center items-center p-16 text-white"
+            style={animationProps}
+          >
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl lg:mx-0">
+                <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                  ABOUT US
+                </h2>
               </div>
-              <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-                {/* {stats.map((stat) => (
-                  <div key={stat.name} className="flex flex-col-reverse">
-                    <dt className="text-base leading-7 text-gray-300">
-                      {stat.name}
-                    </dt>
-                    <dd className="text-2xl font-bold leading-9 tracking-tight text-white">
-                      {stat.value}
-                    </dd>
-                  </div>
-                ))} */}
-              </dl>
+              <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                  {links.map((link) => (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      className="pointer-events-none text-gray-300 text-xl"
+                    >
+                      {link.name} <span aria-hidden="true">&rarr;</span>
+                    </a>
+                  ))}
+                </div>
+                <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4"></dl>
+              </div>
             </div>
-          </div>
+          </animated.div>
         </div>
         <div className="container mx-auto px-4 py-16 h-full">
           <div className="max-w-3xl mx-auto">
@@ -156,35 +166,36 @@ const links = [
         </div>
         <Features />
         <div className="container mx-auto px-4 py-16 h-full">
-        <div className="max-w-3xl mx-auto">
-        <h2 className="text-4xl text-purple-700 font-semibold mb-4">
-          Our Core Values
-        </h2>
-        <ol>
-          <li className="text-lg mb-4">
-            Compassion: We approach our work with empathy, understanding, and a
-            deep sense of care for the widows we serve.
-          </li>
-          <li className="text-lg mb-4">
-            Empowerment: We empower widows by providing them with the tools,
-            resources, and skills they need to rebuild their lives and pursue
-            their aspirations.
-          </li>
-          <li className="text-lg mb-4">
-            Dignity: We uphold the dignity and worth of every widow, respecting
-            their autonomy, choices, and cultural diversity.
-          </li>
-          <li className="text-lg mb-4">
-            Collaboration: We believe in the power of collaboration and
-            partnerships to maximize our impact and reach more widows in need.
-          </li>
-          <li className="text-lg mb-16">
-            Transparency: We are committed to transparency and accountability in
-            all our actions, ensuring that resources are utilized efficiently
-            and effectively to benefit widows.
-          </li>
-        </ol>
-        </div>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl text-purple-700 font-semibold mb-4">
+              Our Core Values
+            </h2>
+            <ol>
+              <li className="text-lg mb-4">
+                Compassion: We approach our work with empathy, understanding,
+                and a deep sense of care for the widows we serve.
+              </li>
+              <li className="text-lg mb-4">
+                Empowerment: We empower widows by providing them with the tools,
+                resources, and skills they need to rebuild their lives and
+                pursue their aspirations.
+              </li>
+              <li className="text-lg mb-4">
+                Dignity: We uphold the dignity and worth of every widow,
+                respecting their autonomy, choices, and cultural diversity.
+              </li>
+              <li className="text-lg mb-4">
+                Collaboration: We believe in the power of collaboration and
+                partnerships to maximize our impact and reach more widows in
+                need.
+              </li>
+              <li className="text-lg mb-16">
+                Transparency: We are committed to transparency and
+                accountability in all our actions, ensuring that resources are
+                utilized efficiently and effectively to benefit widows.
+              </li>
+            </ol>
+          </div>
         </div>
       </>
     );

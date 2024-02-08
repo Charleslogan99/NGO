@@ -1,7 +1,19 @@
 const people = [
   {
     name: "Rosemary Chike",
+    role: "Founder / CEO",
+
+    description:
+      "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
+    imageUrl:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  },
+
+  {
+    name: "Miriam Okoro",
     role: "Co-Founder / CEO",
+    description:
+      "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
@@ -9,6 +21,8 @@ const people = [
   {
     name: "Rosemary Chike",
     role: "Co-Founder / CEO",
+    description:
+      "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
@@ -16,6 +30,8 @@ const people = [
   {
     name: "Rosemary Chike",
     role: "Co-Founder / CEO",
+    description:
+      "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
@@ -23,13 +39,8 @@ const people = [
   {
     name: "Rosemary Chike",
     role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-
-  {
-    name: "Rosemary Chike",
-    role: "Co-Founder / CEO",
+    description:
+      "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
@@ -44,11 +55,10 @@ const people = [
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-purple-700 sm:text-4xl">Meet our leadership</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
-              suspendisse.
+            At the heart of our organization dedicated to widows, our esteemed leaders embody the values and aspirations we hold dear. With a wealth of experience and a profound commitment to serving others, our leadership team sets the standard for excellence and compassion in all our endeavors.
             </p>
           </div>
-          <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
             {people.map((person) => (
               <li key={person.name}>
                 <div className="flex items-center gap-x-6">
@@ -56,6 +66,7 @@ const people = [
                   <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                     <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                    <p className="text-xs font-semibold leading-6 text-gray-600">{person.description}</p>
                   </div>
                 </div>
               </li>
