@@ -16,7 +16,7 @@ const Contact = () => {
         // className="absolute inset-0 flex flex-col justify-center items-center p-16 text-white"
         style={animationProps}
       >
-        <div className="relative mt-20  md:mt-2 lg:mt-20 bg-gradient-to-r from-purple-700 to-white h-96 md:h-screen">
+        <div className="relative mt-20  md:mt-2 lg:mt-20 bg-gradient-to-r from-purple-700 to-gray-900 h-96 md:h-screen">
           <div className="absolute inset-0 bg-gray-900 opacity-50"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-white">
