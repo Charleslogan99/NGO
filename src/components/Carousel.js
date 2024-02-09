@@ -3,18 +3,20 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Carousel = () => {
+const Carousel = ({ title, date, description, images }) => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true
@@ -30,27 +32,17 @@ const Carousel = () => {
     ]
   };
 
-  // Sample image URLs
-  const images = [
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg'),
-    require('../assets/Image2.jpg')
-  ];
-
   return (
-    <div className="container mx-auto py-8">
-      <h2 className="text-3xl font-semibold text-center mb-8">Image Carousel</h2>
+    <div className="container mx-auto py-8 mt-20">
+      <div>
+        <h2 className="text-3xl font-semibold text-center mb-1">{title}</h2>
+        <p className='text-xs text-gray-500 text-center mt-2 mb-2'>{date}</p>
+        <p className='text-lg text-gray-500 text-center mb-8'>{description}</p>
+      </div>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Slide ${index}`} className="mx-auto h-screen w-screen" />
+            <img src={image} alt={`Slide ${index}`} className="mx-auto rounded-xl shadow-lg lg:h-screen w-4/5" />
           </div>
         ))}
       </Slider>
