@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel';
-
+import Footer from './Footer';
 const ProjectPage = () => {
   // Define your project data
   const projectData = {
@@ -52,6 +52,7 @@ const ProjectPage = () => {
         description={projectData2.description} 
         images={projectData2.images} 
       />
+      <Footer />
     </div>
   );
 };

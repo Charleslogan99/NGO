@@ -1,16 +1,16 @@
 const people = [
   {
-    name: "Rosemary Chike",
+    name: "(Mrs.) Rosemary Chike",
     role: "Founder / CEO",
 
     description:
       "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
+      require('../assets/Rosemary.JPG')
+    },
 
   {
-    name: "Miriam Okoro",
+    name: "(Ms.) Miriam Okoro",
     role: "Co-Founder / CEO",
     description:
       "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
@@ -19,33 +19,32 @@ const people = [
   },
 
   {
-    name: "Rosemary Chike",
+    name: "(Mr.) Babasola Olukoya",
     role: "Co-Founder / CEO",
     description:
       "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
+     require('../assets/Person2.JPG')
+    },
 
   {
-    name: "Rosemary Chike",
+    name: "(Mr.) Agbasi Ifeoma O",
     role: "Co-Founder / CEO",
     description:
       "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
+     require('../assets/Person3.JPG')
+    },
 
   {
-    name: "Rosemary Chike",
+    name: "(Dr.) Agbasi Chukwudum",
     role: "Co-Founder / CEO",
     description:
       "I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
+     require('../assets/Person4.JPG')
+    },
 
-  // More people...
 ];
  
   export default function Team() {
@@ -62,7 +61,7 @@ const people = [
             {people.map((person) => (
               <li key={person.name}>
                 <div className="flex items-center gap-x-6">
-                  <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
+                  <img className="h-24 w-24 rounded-full" src={person.imageUrl} alt="" />
                   <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                     <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
