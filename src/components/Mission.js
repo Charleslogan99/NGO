@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHandshake, FaBalanceScale, FaHandsHelping } from 'react-icons/fa';
 
-import logo from '../assets/Image2.jpg';
+import logo from '../assets/Widow7.jpg';
 
 export default function Section() {
   return (
@@ -42,7 +42,8 @@ export default function Section() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-purple-700 sm:text-4xl">
-                Our Mission
+                {/* Our Mission */}
+                ENOURI JEHOVAH-JIREH FOUNDATION
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 We are a nonprofit organization dedicated to improving the lives of widows in Nigeria. Our mission is to provide comprehensive support and resources to empower widows, ensuring they have the opportunity to thrive and reach their full potential.

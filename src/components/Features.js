@@ -148,12 +148,12 @@ const Features = () => {
                 {causes.map((cause, index) => (
                     <div key={index} className="bg-white transition duration-300 ease-in-out transform hover:scale-105 rounded-lg shadow-md p-4 flex flex-col items-center">
                         {/* Icon */}
-                        <div className="  text-purple-700 mb-2">
+                        <div className="font-satoshi  text-purple-700 mb-2">
                             <span className="text-5xl">{cause.icon}</span>
                         </div>
                         {/* Text */}
-                        <p className="text-2xl mb-4 text-center font-semibold text-gray-800">{cause.title}</p>
-                        <p className='text-sm text-center'>{cause.description}</p>
+                        <p className="text-2xl mb-4 text-center font-satoshi font-semibold text-gray-800">{cause.title}</p>
+                        <p className='text-sm font-satoshi text-center'>{cause.description}</p>
                     </div>
                 ))}
             </div>

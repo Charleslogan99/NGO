@@ -104,6 +104,22 @@ const links = [
               facing economic, social, and emotional challenges.
             </p>
             <h2 className="text-4xl text-purple-700 font-semibold mb-4">
+              Our Objective
+            </h2>
+            <p className="text-lg mb-16">
+              To Promote Empowerment programmes for widows, To provide ⁠Medical &
+              wellness outreaches for widows and women in urban and rural
+              communities against Malaria & Cancer (Breast & Cervical cancer), To
+              Promote Trainings and Sensitizations for young and old widows in
+              rural communities, To Promote ⁠Advocacy against repugnant customs
+              and inhuman practices against widows and women and to advocate
+              against discrimination of all kinds, To promote Advocacy against
+              gender based violence, female genital mutilation and other inhuman
+              practices against widows and women, To collaborate with other
+              Associations and agencies of government on any project that impact
+              positively on life.
+            </p>
+            <h2 className="text-4xl text-purple-700 font-semibold mb-4">
               Our Mission
             </h2>
             <p className="text-lg mb-16">

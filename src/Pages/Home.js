@@ -1,4 +1,4 @@
-// import Nav from '../components/Header'
+import Nav from '../components/Header'
 import Hero from '../components/Hero'
 import Team from '../components/Team'
 import Features from '../components/Features'
@@ -6,19 +6,22 @@ import Footer from '../components/Footer'
 import Mission from '../components/Mission'
 import MajorCauses from '../components/MajorCauses'
 // import CountingNumbers from '../components/TrustedCompany'
-import GoogleTranslator from '../components/Translator'
+import Translator from '../components/Translator'
+import Map from '../components/Map'
 
 export default function Home() {
   return (
     <div>
-      {/* <Nav /> */}
-      <GoogleTranslator />
+      <Translator />
+      <Nav />
       <Hero />
       <MajorCauses />
-      <Team />
+    
       <Mission />
       <Features />
+      <Team />
       {/* <CountingNumbers /> */}
+      <Map />
       <Footer />
     </div>
   );
