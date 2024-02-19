@@ -12,7 +12,7 @@ import Map from '../components/Map'
 export default function Home() {
   return (
     <div>
-      <Translator />
+      {/* <Translator /> */}
       <Nav />
       <Hero />
       <MajorCauses />

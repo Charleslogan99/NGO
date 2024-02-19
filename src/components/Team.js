@@ -4,32 +4,33 @@ const people = [
     role: 'Founder / CEO',
 
     description:
-      'I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause',
-    imageUrl: require('../assets/Rosemary.JPG'),
+    'Rosemary Uzoamaka Chike is an ordained minister of God in the  Redeemed Christian church of God and a provincial Cordinator for counseling and follow-up in Abuja. She worked as a resource person (Volunteer) for UNICEF. She was also the project lead for a Non- Governmental organization by name CENFET in Abuja. She is the founder/ Chairman of Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children. Educational Qualifications: MA Theology- Redeemed Christian Bible College. PGD Theology-Redeemed Christian Bible College. BSc Marketing  - Abia state university WASC - Girls Secondary School, Okigwe First School leaving certificate - Ohabuike primary school,  Afikpo.',
+    
+      imageUrl: require('../assets/Rosemary.JPG'),
   },
 
   {
-    name: '(Ms.) Miriam Okoro',
+    name: '(Ms.) Mirian Okoro',
     role: 'Co-Founder / CEO',
     description:
-      'I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause',
+      'Mirian Okoro is a Lawyer, Writer and Human Rights Activist with several years of experience in the Nonprofit sector. She graduated from Madonna University, Okija, Nigeria in the year 2014, where she obtained her Bachelors Degree in Law with a Second Class Honors (Upper Division). Afterwards, She enrolled for the nine-month professional training at the Nigerian Law School, and after satisfying all the requirements of the Council of Legal Education, she was called to the Nigerian Bar in the year 2015. Since then, she has been actively involved in the Nigerian Civil Society in the area of Women and Children Advocacy, as well as Youth Rehabilitation through Agriculture. She is the current Secretary of Enouri Jehovah Jireh Foundation for Widows and Aduri El Shaddai Foundation for women and children',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
+require('../assets/Mimi.jpg') 
+    },
 
   {
     name: '(Mr.) Babasola Olukoya',
     role: 'Co-Founder / CEO',
+    
     description:
-      'I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause',
-    imageUrl: require('../assets/Person2.JPG'),
+    'Babasola Olukoya is a senior Pastor in charge of a province in the Redeemed Christian Church of God. He is also a special protocol officer to the General Overseer of the Redeemed Christian Church of God and his wife - Pastor and Pastor Mrs Enoch Adeboye. He is a Director  in Triple A micro finance Bank, Abuja and Chairman of CB construction company, an engineering outfit. He is the project lead in a Non-Governmental organization- Habitation of Hope, Abuja. He is also the Director of projects for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children. Educational Qualifications Honorary Doctorate degree - ISGG University MBA Leadership- Faith lead  University, Florida MA Theology- Redeemed Christian Bible College BSc Quantity Surveying- Obafemi Awolowo University. WASC New state Secondary school Ladi lak primary School,Lagos.',  
+      imageUrl: require('../assets/Person2.JPG'),
   },
 
   {
     name: '(Mr.) Agbasi Ifeoma O',
     role: 'Co-Founder / CEO',
-    description:
-      'I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause',
+    description: 'Mrs Agbasi Ifeoma O: Nnewi Girls Secondary school (WAEC) Institute of Management and Technology, Enugu State OND(Business administration) University of PortHarcourt, Rivers State. BSc...Sociology Nnamdi Azikiwe University... MSc Criminology, She is also the Director of projects for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children',
     imageUrl: require('../assets/Person3.JPG'),
   },
 
@@ -37,7 +38,7 @@ const people = [
     name: '(Dr.) Agbasi Chukwudum',
     role: 'Co-Founder / CEO',
     description:
-      'I am the founder,and ceo of this great ngo,A graduate of the university of Nigeria,Nsukka,I am here for a just cause',
+    'Dr Agbasi Chukwudum:  New Era  Model Secondary School, Uruagu, Nnewi, Anambra State... WASSCE University of Nigeria, Nsukka, Enugu State (MBBS) He is the Director of finance for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children.',
     imageUrl: require('../assets/Person4.JPG'),
   },
 ]
@@ -45,7 +46,7 @@ const people = [
 export default function Team() {
   return (
     <div className='bg-white py-24 sm:py-32'>
-      <div className='mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3'>
+      <div className='mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-2'>
         <div className='max-w-2xl'>
           <h2 className='text-3xl font-bold tracking-tight text-purple-700 sm:text-4xl'>
             Meet our leadership
