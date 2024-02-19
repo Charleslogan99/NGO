@@ -146,7 +146,7 @@ const Features = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">
                 {/* Map through causes and render dynamic cards */}
                 {causes.map((cause, index) => (
-                    <div key={index} className="bg-white transition duration-300 ease-in-out transform hover:scale-105 rounded-lg shadow-md p-4 flex flex-col items-center">
+                    <div key={index} className="bg-white transition duration-300 ease-in-out transform hover:scale-105 rounded-lg shadow-sm p-4 flex flex-col items-center">
                         {/* Icon */}
                         <div className="font-satoshi  text-purple-700 mb-2">
                             <span className="text-5xl">{cause.icon}</span>
