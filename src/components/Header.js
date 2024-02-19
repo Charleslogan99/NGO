@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from '../assets/Logo.jpg'
 import { Link, useLocation } from "react-router-dom";
-import { NAV_ABOUT, NAV_CONTACT, NAV_FAQ } from "../route/constants";
+import { NAV_ABOUT, NAV_CONTACT, NAV_FAQ, NAV_PROJECTS } from "../route/constants";
 import { getNavPath } from "../route";
 import Payment from "./Payment";
 
@@ -17,7 +17,7 @@ const HEADER_PATHS = [
   },
   {
     label: 'Projects',
-    path: getNavPath(NAV_FAQ),
+    path: getNavPath(NAV_PROJECTS),
   },
   {
     label: 'FAQ',
