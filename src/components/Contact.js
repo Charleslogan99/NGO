@@ -42,28 +42,28 @@ const Contact = () => {
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
             <FaEnvelope className="text-4xl text-purple-700 mb-4" />
             <h3 className="text-lg font-semibold mb-2">Email</h3>
-            <p className="text-gray-700">contact@ngo.org</p>
+            <p className="text-gray-700">Available soon</p>
           </div>
 
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
             <FaMapMarkerAlt className="text-4xl text-purple-700 mb-4" />
             <h3 className="text-lg font-semibold mb-2">Address</h3>
-            <p className="text-gray-700">123 NGO Street, City, Country</p>
+            <p className="text-gray-700">X14b Patrick Fluret, Sunnyvale Homes, Abuja, Nigeria</p>
           </div>
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
             <FaInstagram className="text-4xl text-purple-700 mb-4" />
             <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
-            <p className="text-gray-700">@Test4041</p>
+            <p className="text-gray-700">Available soon</p>
           </div>
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
             <FaTwitter className="text-4xl text-purple-700 mb-4" />
             <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
-            <p className="text-gray-700">@Test4041</p>
+            <p className="text-gray-700">Available soon</p>
           </div>
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
             <FaFacebook className="text-4xl text-purple-700 mb-4" />
             <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
-            <p className="text-gray-700">@Test4041</p>
+            <p className="text-gray-700">Available soon</p>
           </div>
         </div>
       </div>

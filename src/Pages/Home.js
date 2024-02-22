@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import Mission from '../components/Mission'
 import MajorCauses from '../components/MajorCauses'
 // import CountingNumbers from '../components/TrustedCompany'
-import Translator from '../components/Translator'
+// import Translator from '../components/Translator'
 import Map from '../components/Map'
 
 export default function Home() {

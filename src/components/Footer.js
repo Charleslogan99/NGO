@@ -10,12 +10,12 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="text-purple-700">
             <h4 className="text-lg font-semibold mb-4">Enouri JehovahJireh Foundation</h4>
-                <p className='text-gray-400 text-sm'>At the Enouri JehovahJireh Foundation, we are committed to empowering widows, safeguarding their rights, and nurturing a promising future for generations ahead.</p>
+                <p className='text-gray-400 text-sm space-y-2'>At the Enouri JehovahJireh Foundation, we are committed to empowering widows, safeguarding their rights, and nurturing a promising future for generations ahead.</p>
           </div>
 
           <div className="text-purple-700 xl:ml-20">
             <h4 className="text-lg font-semibold mb-4">Navigation</h4>
-            <ul className='flex flex-col'>
+            <ul className='flex flex-col space-y-2'>
               <a href='/' className="text-gray-400 hover:text-purple-700" >Home</a>
               <a href='/about' className="text-gray-400 hover:text-purple-700">About</a>
               <a href='/contact' className="text-gray-400 hover:text-purple-700">Contact</a>
@@ -24,15 +24,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="">
+          <div className="space-y-2">
             <h4 className="text-lg font-semibold text-purple-700 mb-4">
               Contact Us
             </h4>
             <p className="text-gray-400">
-              <MdLocationOn className="inline-block mr-2" /> Plot 10 Conquest Avenue, MaryLand
+              <MdLocationOn className="inline-block mr-2" /> X14b Patrick Fluret, Sunnyvale Homes, Abuja, Nigeria
             </p>
             <p className="text-gray-400">
-              <MdEmail className="inline-block mr-2" /> example@example.com
+              <MdEmail className="inline-block mr-2" /> Available soon
             </p>
             <p className="text-gray-400">
               <MdPhone className="inline-block mr-2" /> +234 803 320 7833
@@ -41,15 +41,15 @@ const Footer = () => {
 
           <div className="text-purple-700 xl:ml-20">
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
-            <ul>
+            <ul className='space-y-2'>
               <li className="text-gray-400">
-                <FaFacebook className="inline-block mr-2" /> Facebook: @Test4041
+                <FaFacebook className="inline-block mr-2" /> Facebook: Available soon
               </li>
               <li className="text-gray-400">
-                <FaTwitter className="inline-block mr-2" /> Twitter: @Test4041
+                <FaTwitter className="inline-block mr-2" /> Twitter: Available soon
               </li>
               <li className="text-gray-400">
-                <FaInstagram className="inline-block mr-2" /> Instagram: @Test4041
+                <FaInstagram className="inline-block mr-2" /> Instagram: Available soon
               </li>
             </ul>
           </div>
