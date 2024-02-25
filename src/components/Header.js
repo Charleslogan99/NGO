@@ -23,10 +23,7 @@ const HEADER_PATHS = [
     label: 'FAQ',
     path: getNavPath(NAV_FAQ),
   },
-  {
-    label: 'Support',
-    path: getNavPath(NAV_SUPPORT),
-  },
+  
 ]
 
 const Nav = () => {

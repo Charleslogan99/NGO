@@ -35,13 +35,13 @@ const Carousel = ({ title, date, description, images }) => {
   return (
     <div className="container mx-auto py-8 mt-24 mb-24">
       <div>
-        <h2 className="text-3xl font-semibold text-center mb-1">{title}</h2>
+        <h2 className="text-3xl lg:text-6xl font-semibold text-center mb-1">{title}</h2>
         <p className="text-xs text-gray-500 text-center mb-1">{date}</p>
         <p className="text-lg text-gray-500 text-center mb-8">{description}</p>
       </div>
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div className="flex-none h-screen w-screen rounded-lg">
+          <div className="flex-none h-full w-24 rounded-lg">
             <div key={index}>
               <img
                 src={image}
