@@ -4,7 +4,7 @@ const people = [
     role: "Director / CEO",
 
     description:
-      "She is an ordained minister of God in the  Redeemed Christian church of God and a provincial Cordinator for counseling and follow-up in Abuja. She worked as a resource person (Volunteer) for UNICEF. She was also the project lead for a Non- Governmental organization by name CENFET in Abuja. She is the Director / CEO of Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children. Educational Qualifications: MA Theology- Redeemed Christian Bible College. PGD Theology-Redeemed Christian Bible College. BSc Marketing  - Abia state university WASC - Girls Secondary School, Okigwe First School leaving certificate - Ohabuike primary school,  Afikpo.",
+      "She is an ordained minister of God in the  Redeemed Christian church of God and a provincial Cordinator for counseling and follow-up in Abuja. She worked as a resource person (Volunteer) for UNICEF. She was also the project lead for a Non- Governmental organization by name CENFET in Abuja. She is the Founder / Chairman of Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children. Educational Qualifications: MA Theology- Redeemed Christian Bible College. PGD Theology-Redeemed Christian Bible College. BSc Marketing  - Abia state university WASC - Girls Secondary School, Okigwe First School leaving certificate - Ohabuike primary school,  Afikpo.",
 
     imageUrl: require("../assets/Rosemary.JPG"),
   },
@@ -38,7 +38,7 @@ const people = [
     name: "(Dr.) Agbasi Chukwudum",
     role: "Director",
     description:
-      "He is the Director of finance for Enouri Jehovah Jireh Foundation for widows & Aduri El-Shaddai Foundation for women & children Educational Qualification:  New Era  Model Secondary School, Uruagu, Nnewi, Anambra State... WASSCE University of Nigeria, Nsukka, Enugu State (MBBS) He is the Director of finance for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children.",
+      "He is a Medical Doctor, He is the Director of finance for Enouri Jehovah Jireh Foundation for widows & Aduri El-Shaddai Foundation for women & children Educational Qualification:  New Era  Model Secondary School, Uruagu, Nnewi, Anambra State... WASSCE University of Nigeria, Nsukka, Enugu State (MBBS) He is the Director of finance for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children.",
     imageUrl: require("../assets/Person4.JPG"),
   },
 ];

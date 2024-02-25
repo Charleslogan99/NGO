@@ -41,7 +41,7 @@ const Carousel = ({ title, date, description, images }) => {
       </div>
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div className="flex-none h-screen w-24 rounded-lg">
+          <div className="flex-none h-screen w-screen rounded-lg">
             <div key={index}>
               <img
                 src={image}

@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">
             <FaEnvelope className="text-4xl text-purple-700 mb-4" />
             <h3 className="text-lg font-semibold mb-2">Email</h3>
-            <p className="text-gray-700">Available soon</p>
+            <p className="text-gray-700">Jehovahjirehenouri@gmail.com</p>
           </div>
 
           <div className="bg-white transition duration-300 ease-in-out transform hover:scale-105 shadow-none rounded-lg p-6 flex flex-col items-center">

@@ -32,7 +32,7 @@ const Footer = () => {
               <MdLocationOn className="inline-block mr-2" /> X14b Patrick Fluret, Sunnyvale Homes, Abuja, Nigeria
             </p>
             <p className="text-gray-400">
-              <MdEmail className="inline-block mr-2" /> Available soon
+              <MdEmail className="inline-block mr-2" /> Jehovahjirehenouri@gmail.com
             </p>
             <p className="text-gray-400">
               <MdPhone className="inline-block mr-2" /> +234 803 320 7833
