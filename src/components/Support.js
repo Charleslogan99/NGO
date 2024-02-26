@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
-import backgroundImage from '../assets/Herologo.jpg'; 
+import backgroundImage from '../assets/Herologo3.jpg'; 
 
 export default function Support() {
   const heroSpring = useSpring({
