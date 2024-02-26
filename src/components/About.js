@@ -249,6 +249,7 @@ export default function About() {
           >
             <div className="absolute inset-0 bg-black opacity-70"></div>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              
               <div className=" max-w-2xl lg:mx-0">
 
                 <h2 className="text-4xl font-bold tracking-tight text-purple-100 md:text-6xl">

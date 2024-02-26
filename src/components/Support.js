@@ -28,7 +28,7 @@ export default function Support() {
       */}
        <p className="text-lg text-gray-300">
             Your contributions help us make a difference in the lives of those in need. 
-            Join us in our mission to bring hope and assistance to communities worldwide.
+            Join us in our mission to bring hope and assistance to widows.
           </p>
       </div>
    </div>
