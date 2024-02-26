@@ -10,7 +10,7 @@ const people = [
   },
 
   {
-    name: "(Ms.) Mirian Okoro",
+    name: "(Barr.) Mirian Okoro",
     role: "Director / Secretary",
     description:
       "She is a Lawyer, Writer and Human Rights Activist with several years of experience in the Nonprofit sector. She graduated from Madonna University, Okija, Nigeria in the year 2014, where she obtained her Bachelors Degree in Law with a Second Class Honors (Upper Division). Afterwards, She enrolled for the nine-month professional training at the Nigerian Law School, and after satisfying all the requirements of the Council of Legal Education, she was called to the Nigerian Bar in the year 2015. Since then, she has been actively involved in the Nigerian Civil Society in the area of Women and Children Advocacy, as well as Youth Rehabilitation through Agriculture. She is the current Secretary of Enouri Jehovah Jireh Foundation for Widows and Aduri El Shaddai Foundation for women and children",

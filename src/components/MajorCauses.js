@@ -12,8 +12,8 @@ const MajorCauses = () => {
                     <FaDonate className="w-12 h-12 text-purple-700" />
                     {/* Text */}
                     <h1 className="text-3xl font-semibold text-gray-800 mt-4">Donation</h1>
-                    <p className="text-xl font-semibold text-gray-800 mt-6">Support Widows Through Donations</p>
-                    <p className='text-lg text-center'>Your generous donations help us provide financial support, counseling services, and skill development programs to widows in need. With your contribution, we can empower widows to rebuild their lives with dignity and resilience.</p>
+                    <p className="text-xl text-center font-semibold text-gray-800 mt-6">Support Widows Through Donations</p>
+                    <p className='text-md mt-1 text-center'>Your generous donations help us provide financial support, counseling services, and skill development programs to widows in need. With your contribution, we can empower widows to rebuild their lives with dignity and resilience.</p>
                 </div>
 
                 {/* Inspiration Section */}
@@ -22,8 +22,8 @@ const MajorCauses = () => {
                     <FaLightbulb className="w-12 h-12 text-purple-700" />
                     {/* Text */}
                     <h1 className="text-3xl font-semibold text-gray-800 mt-4">Inspiration</h1>
-                    <p className="text-xl font-semibold text-gray-800 mt-6">Find Inspiration in Stories of Courage</p>
-                    <p className='text-lg mt-1 text-center'>Explore stories of resilience and strength from widows who have overcome adversity. Through their experiences, find inspiration and motivation to support widows in your community and make a positive impact.</p>
+                    <p className="text-xl text-center font-semibold text-gray-800 mt-6">Find Inspiration in Stories of Courage</p>
+                    <p className='text-md mt-1 text-center'>Explore stories of resilience and strength from widows who have overcome adversity. Through their experiences, find inspiration and motivation to support widows in your community and make a positive impact.</p>
                 </div>
             </div>
         </div>

@@ -68,6 +68,13 @@ export default function Support() {
             <dd className="mt-1 mb-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">0899922233</dd>
             <dt className="text-lg font-medium leading-6 text-gray-900">Pounds Account Number</dt>
             <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">0899922226</dd>
+            <dt className="text-lg font-medium leading-6 text-gray-900"> Sort Code</dt>
+            <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">058083257</dd>
+            <dt className="text-lg font-medium leading-6 text-gray-900">Swift Code</dt>
+            <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">GTBINGLA</dd>
+            <dt className="text-lg font-medium leading-6 text-gray-900">Bank Address:</dt>
+            <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Plot 1473 Ahmadu Bello Way, Area 11 Garki, Abuja FCT</dd>
+         
           </div>
           {/*  */}
 
