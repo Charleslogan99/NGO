@@ -30,7 +30,7 @@ const people = [
     name: "(Lady.) Agbasi Ifeoma O",
     role: "Director",
     description:
-      "She is a Director / CEO of New Era Secondary School, Nnewi,She is a Director of operations and Administration in Enouri Jehovah Jireh Foundation for widows & Aduri El-Shaddai Foundation for women and children  Educational Qualification: Nnewi Girls Secondary school (WAEC) Institute of Management and Technology, Enugu State OND(Business administration) University of PortHarcourt, Rivers State. BSc...Sociology Nnamdi Azikiwe University... MSc Criminology, She is also the Director of projects for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children",
+      "She is a minister of God & She is the Director / CEO of New Era Secondary School, Nnewi,She is a Director of operations and Administration in Enouri Jehovah Jireh Foundation for widows & Aduri El-Shaddai Foundation for women and children  Educational Qualification: Nnewi Girls Secondary school (WAEC) Institute of Management and Technology, Enugu State OND(Business administration) University of PortHarcourt, Rivers State. BSc...Sociology Nnamdi Azikiwe University... MSc Criminology, She is also the Director of projects for Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children",
     imageUrl: require("../assets/Person3.JPG"),
   },
 

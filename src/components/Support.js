@@ -64,18 +64,18 @@ export default function Support() {
           <div className=" py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="text-lg font-medium leading-6 text-gray-900">Dollar Account Number</dt>
             <dd className="mt-1 mb-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">0899922219</dd>
-            <dt className="text-lg font-medium leading-6 text-gray-900">Euro Account Number</dt>
+            <dt className="text-lg mt-2 font-medium leading-6 text-gray-900">Euro Account Number</dt>
             <dd className="mt-1 mb-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">0899922233</dd>
-            <dt className="text-lg font-medium leading-6 text-gray-900">Pounds Account Number</dt>
+            <dt className="text-lg mt-2 font-medium leading-6 text-gray-900">Pounds Account Number</dt>
             <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">0899922226</dd>
-            <dt className="text-lg font-medium leading-6 text-gray-900"> Sort Code</dt>
+            <dt className="text-lg mt-2 font-medium leading-6 text-gray-900"> Sort Code</dt>
             <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">058083257</dd>
-            <dt className="text-lg font-medium leading-6 text-gray-900">Swift Code</dt>
+            <dt className="text-lg mt-2 font-medium leading-6 text-gray-900">Swift Code</dt>
             <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">GTBINGLA</dd>
-            <dt className="text-lg font-medium leading-6 text-gray-900">Bank Address:</dt>
+            <dt className="text-lg mt-2 font-medium leading-6 text-gray-900">Bank Address:</dt>
             <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Plot 1473 Ahmadu Bello Way, Area 11 Garki, Abuja FCT</dd>
          
-          </div>
+         </div>
           {/*  */}
 
           
