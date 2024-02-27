@@ -242,16 +242,14 @@ export default function About() {
             className="relative bg-cover bg-center h-screen flex items-center justify-center sm:mt-10 md:mt-10 xl:mt-24"
             style={{
               backgroundImage: `url(${backgroundImage})`,
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
             }}
           >
             <div className="absolute inset-0 bg-black opacity-70"></div>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              
               <div className=" max-w-7xl lg:mx-0">
-
                 <h2 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
                   ABOUT US
                 </h2>
@@ -280,49 +278,53 @@ export default function About() {
             About Us
           </h2>
           <p className="text-lg mb-16">
-            About Enouri Jehovah Jireh Foundation Enouri Jehovah Jireh
-            Foundation is a dedicated non-governmental organization (NGO)
-            committed to uplifting the lives of widows across our communities.
-            Founded on principles of compassion, empowerment, and social
-            justice, our foundation strives to be a beacon of hope for widows
-            facing economic, social, and emotional challenges.
+            Enouri Jehovah Jireh Foundation is a dedicated non-governmental
+            organization (NGO) committed to uplifting the lives of widows across
+            our communities. Founded on principles of compassion, empowerment,
+            and social justice, our foundation strives to be a beacon of hope
+            for widows facing economic, social, and emotional challenges.Enouri
+            Jehovah Jireh Foundation started off as a Community based
+            organization in the year 2020 with several project collaborations
+            with the Non-governmental Organization, Star Advocacy for African
+            Women and Children (SAFAWAC) It was eventually incorporated into a
+            full-blown Non-governmental Organization in the year 2024 to further
+            actualize its goals and expand its reach across the Nigerian States.
           </p>
           <h2 className="text-4xl text-purple-700 font-semibold mb-4">
             Our Objective
           </h2>
           <p className="text-lg mb-16">
-            To Promote Empowerment programmes for widows, To provide ⁠Medical
-            & wellness outreaches for widows and women in urban and rural
-            communities against Malaria & Cancer (Breast & Cervical cancer),
-            To Promote Trainings and Sensitizations for young and old widows
-            in rural communities, To Promote ⁠Advocacy against repugnant
-            customs and inhuman practices against widows and women and to
-            advocate against discrimination of all kinds, To promote Advocacy
-            against gender based violence, female genital mutilation and other
-            inhuman practices against widows and women, To collaborate with
-            other Associations and agencies of government on any project that
-            impact positively on life.
+            To Promote Empowerment programmes for widows, To provide ⁠Medical &
+            wellness outreaches for widows and women in urban and rural
+            communities against Malaria & Cancer (Breast & Cervical cancer), To
+            Promote Trainings and Sensitizations for young and old widows in
+            rural communities, To Promote ⁠Advocacy against repugnant customs
+            and inhuman practices against widows and women and to advocate
+            against discrimination of all kinds, To promote Advocacy against
+            gender based violence, female genital mutilation and other inhuman
+            practices against widows and women, To collaborate with other
+            Associations and agencies of government on any project that impact
+            positively on life.
           </p>
           <h2 className="text-4xl text-purple-700 font-semibold mb-4">
             Our Mission
           </h2>
           <p className="text-lg mb-16">
-            At Enouri Jehovah Jireh Foundation, our mission is clear: to
-            provide unwavering support, resources, and opportunities for
-            widows to rebuild their lives with dignity and resilience. We
-            believe in fostering an environment where widows can thrive,
-            regain their independence, and contribute positively to society.
+            At Enouri Jehovah Jireh Foundation, our mission is clear: to provide
+            unwavering support, resources, and opportunities for widows to
+            rebuild their lives with dignity and resilience. We believe in
+            fostering an environment where widows can thrive, regain their
+            independence, and contribute positively to society.
           </p>
           <h2 className="text-4xl text-purple-700 font-semibold mb-4">
             Our Vision
           </h2>
           <p className="text-lg mb-16">
-            Our vision is to create a world where widows are not only
-            supported but celebrated for their strength and resilience. We
-            envision a society where widows have access to education, economic
-            empowerment, healthcare, and social support systems that enable
-            them to lead fulfilling lives and become agents of change in their
-            communities.
+            Our vision is to create a world where widows are not only supported
+            but celebrated for their strength and resilience. We envision a
+            society where widows have access to education, economic empowerment,
+            healthcare, and social support systems that enable them to lead
+            fulfilling lives and become agents of change in their communities.
           </p>
 
           <h2 className="text-4xl text-purple-700 font-semibold mb-4">
@@ -340,14 +342,14 @@ export default function About() {
               valuable skills and secure sustainable employment opportunities.
             </li>
             <li className="text-lg mb-4">
-              Educational Support: We offer scholarships and educational
-              grants to widows and their children, ensuring access to quality
-              education and breaking the cycle of poverty.
+              Educational Support: We offer scholarships and educational grants
+              to widows and their children, ensuring access to quality education
+              and breaking the cycle of poverty.
             </li>
             <li className="text-lg mb-16">
-              Health and Wellness: We promote the health and wellness of
-              widows through access to healthcare services, mental health
-              support, and wellness programs.
+              Health and Wellness: We promote the health and wellness of widows
+              through access to healthcare services, mental health support, and
+              wellness programs.
             </li>
           </ol>
           <h2 className="text-4xl text-purple-700 font-semibold mb-4">
@@ -355,11 +357,11 @@ export default function About() {
           </h2>
           <p className="text-lg mb-4">
             At Enouri Jehovah Jireh Foundation, we invite you to join us in
-            making a meaningful impact in the lives of widows. Together, we
-            can create a more inclusive and compassionate society where every
-            widow has the opportunity to thrive and live with dignity. Join
-            our cause, support our initiatives, and together, let's change
-            lives for the better.
+            making a meaningful impact in the lives of widows. Together, we can
+            create a more inclusive and compassionate society where every widow
+            has the opportunity to thrive and live with dignity. Join our cause,
+            support our initiatives, and together, let's change lives for the
+            better.
           </p>
           {/* Add more content */}
         </div>
@@ -388,8 +390,7 @@ export default function About() {
             </li>
             <li className="text-lg mb-4">
               Collaboration: We believe in the power of collaboration and
-              partnerships to maximize our impact and reach more widows in
-              need.
+              partnerships to maximize our impact and reach more widows in need.
             </li>
             <li className="text-lg mb-16">
               Transparency: We are committed to transparency and accountability
