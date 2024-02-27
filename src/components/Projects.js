@@ -14,7 +14,7 @@ const images = [
   require('../assets/Image8.jpg'),
   // require('../assets/Image11.jpg'),
   require('../assets/Image13.JPG'),
-  require('../assets/Image14.JPG'),
+  // require('../assets/Image14.JPG'),
   require('../assets/Image15.jpg'),
   require('../assets/Widow1.JPG'),
   require('../assets/Widow2.jpg'),
