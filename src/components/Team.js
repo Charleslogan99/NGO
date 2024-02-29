@@ -1,7 +1,7 @@
 const people = [
   {
     name: "(Mrs.) Rosemary Chike",
-    role: "Director / CEO",
+    role: "Founder / Chiarman",
 
     description:
       "She is an ordained minister of God in the  Redeemed Christian church of God and a provincial Cordinator for counseling and follow-up in Abuja. She worked as a resource person (Volunteer) for UNICEF. She was also the project lead for a Non- Governmental organization by name CENFET in Abuja. She is the Founder / Chairman of Enouri Jehovah Jireh foundation for Widows and Aduri El Shaddai foundation for women and children. Educational Qualifications: MA Theology- Redeemed Christian Bible College. PGD Theology-Redeemed Christian Bible College. BSc Marketing  - Abia state university WASC - Girls Secondary School, Okigwe First School leaving certificate - Ohabuike primary school,  Afikpo.",
